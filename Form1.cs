@@ -546,7 +546,7 @@ namespace Semana4_formulario_juego_de_pareja
                 }
             }
 
-            MessageBox.Show("You matched all the icons!", "Congratulations");
+            MessageBox.Show("Has Ganado!", "Felicidades");
             Close();
         }
     }
