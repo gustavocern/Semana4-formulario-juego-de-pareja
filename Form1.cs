@@ -72,6 +72,15 @@ namespace Semana4_formulario_juego_de_pareja
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+                timer1.Start();
             }
         }
         private void label2_Click(object sender, EventArgs e)
@@ -91,6 +100,15 @@ namespace Semana4_formulario_juego_de_pareja
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+                timer1.Start();
             }
         }
         private void label3_Click(object sender, EventArgs e)
@@ -110,6 +128,15 @@ namespace Semana4_formulario_juego_de_pareja
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+                timer1.Start();
             }
         }
         private void label4_Click(object sender, EventArgs e)
@@ -129,6 +156,15 @@ namespace Semana4_formulario_juego_de_pareja
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+                timer1.Start();
             }
         }
         private void label5_Click(object sender, EventArgs e)
@@ -148,6 +184,15 @@ namespace Semana4_formulario_juego_de_pareja
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+                timer1.Start();
             }
         }
         private void label6_Click(object sender, EventArgs e)
@@ -167,6 +212,15 @@ namespace Semana4_formulario_juego_de_pareja
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+                timer1.Start();
             }
         }
         private void label7_Click(object sender, EventArgs e)
@@ -186,6 +240,15 @@ namespace Semana4_formulario_juego_de_pareja
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+                timer1.Start();
             }
         }
         private void label8_Click(object sender, EventArgs e)
@@ -205,6 +268,15 @@ namespace Semana4_formulario_juego_de_pareja
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+                timer1.Start();
             }
         }
         private void label9_Click(object sender, EventArgs e)
@@ -224,6 +296,15 @@ namespace Semana4_formulario_juego_de_pareja
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+                timer1.Start();
             }
         }
         private void label10_Click(object sender, EventArgs e)
@@ -243,6 +324,15 @@ namespace Semana4_formulario_juego_de_pareja
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+                timer1.Start();
             }
         }
         private void label11_Click(object sender, EventArgs e)
@@ -262,6 +352,15 @@ namespace Semana4_formulario_juego_de_pareja
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+                timer1.Start();
             }
         }
         private void label12_Click(object sender, EventArgs e)
@@ -281,6 +380,15 @@ namespace Semana4_formulario_juego_de_pareja
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+                timer1.Start();
             }
         }
         private void label13_Click(object sender, EventArgs e)
@@ -300,6 +408,15 @@ namespace Semana4_formulario_juego_de_pareja
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+                timer1.Start();
             }
         }
         private void label14_Click(object sender, EventArgs e)
@@ -319,6 +436,15 @@ namespace Semana4_formulario_juego_de_pareja
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+                timer1.Start();
             }
         }
         private void label15_Click(object sender, EventArgs e)
@@ -338,6 +464,15 @@ namespace Semana4_formulario_juego_de_pareja
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+                timer1.Start();
             }
         }
         private void label16_Click(object sender, EventArgs e)
@@ -357,7 +492,31 @@ namespace Semana4_formulario_juego_de_pareja
 
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+                timer1.Start();
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timer1.Stop();
+
+            // Hide both icons
+            firstClicked.ForeColor = firstClicked.BackColor;
+            secondClicked.ForeColor = secondClicked.BackColor;
+
+            // Reset firstClicked and secondClicked 
+            // so the next time a label is
+            // clicked, the program knows it's the first click
+            firstClicked = null;
+            secondClicked = null;
         }
     }
 }
