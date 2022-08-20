@@ -43,6 +43,7 @@ namespace Semana4_formulario_juego_de_pareja
         public Form1()
         {
             InitializeComponent();
+            AssignIconsToSquares();
         }
 
         private void Form1_Load(object sender, EventArgs e)
