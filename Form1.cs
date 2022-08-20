@@ -74,6 +74,7 @@ namespace Semana4_formulario_juego_de_pareja
                 }
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+                CheckForWinner();
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -102,6 +103,8 @@ namespace Semana4_formulario_juego_de_pareja
                 }
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+
+                CheckForWinner();
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -130,6 +133,7 @@ namespace Semana4_formulario_juego_de_pareja
                 }
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+                CheckForWinner();
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -158,6 +162,7 @@ namespace Semana4_formulario_juego_de_pareja
                 }
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+                CheckForWinner();
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -186,6 +191,7 @@ namespace Semana4_formulario_juego_de_pareja
                 }
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+                CheckForWinner();
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -214,6 +220,7 @@ namespace Semana4_formulario_juego_de_pareja
                 }
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+                CheckForWinner();
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -242,6 +249,7 @@ namespace Semana4_formulario_juego_de_pareja
                 }
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+                CheckForWinner();
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -270,6 +278,7 @@ namespace Semana4_formulario_juego_de_pareja
                 }
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+                CheckForWinner();
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -298,6 +307,7 @@ namespace Semana4_formulario_juego_de_pareja
                 }
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+                CheckForWinner();
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -326,6 +336,7 @@ namespace Semana4_formulario_juego_de_pareja
                 }
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+                CheckForWinner();
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -354,6 +365,7 @@ namespace Semana4_formulario_juego_de_pareja
                 }
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+                CheckForWinner();
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -382,6 +394,7 @@ namespace Semana4_formulario_juego_de_pareja
                 }
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+                CheckForWinner();
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -410,6 +423,7 @@ namespace Semana4_formulario_juego_de_pareja
                 }
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+                CheckForWinner();
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -438,6 +452,7 @@ namespace Semana4_formulario_juego_de_pareja
                 }
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+                CheckForWinner();
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -466,6 +481,7 @@ namespace Semana4_formulario_juego_de_pareja
                 }
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+                CheckForWinner();
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -494,6 +510,7 @@ namespace Semana4_formulario_juego_de_pareja
                 }
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+                CheckForWinner();
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -508,15 +525,29 @@ namespace Semana4_formulario_juego_de_pareja
         {
             timer1.Stop();
 
-            // Hide both icons
+           
             firstClicked.ForeColor = firstClicked.BackColor;
             secondClicked.ForeColor = secondClicked.BackColor;
 
-            // Reset firstClicked and secondClicked 
-            // so the next time a label is
-            // clicked, the program knows it's the first click
+           
             firstClicked = null;
             secondClicked = null;
+        }
+        private void CheckForWinner()
+        {
+            foreach (Control control in tableLayoutPanel1.Controls)
+            {
+                Label iconLabel = control as Label;
+
+                if (iconLabel != null)
+                {
+                    if (iconLabel.ForeColor == iconLabel.BackColor)
+                        return;
+                }
+            }
+
+            MessageBox.Show("You matched all the icons!", "Congratulations");
+            Close();
         }
     }
 }
